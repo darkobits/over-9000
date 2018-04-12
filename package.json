@@ -1,0 +1,40 @@
+{
+  "name": "over-9000",
+  "description": "A sufficiently large integer for defining power levels, and the like.",
+  "version": "9000.0.0",
+  "author": "darkobits",
+  "license": "WTFPL",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "xo",
+    "test": "jest",
+    "prebuild": "rimraf dist",
+    "build": "babel src --out-dir=dist --source-maps",
+    "prebump": "run-p lint test build",
+    "bump": "standard-version"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.2",
+    "eslint-plugin-import": "^2.9.0",
+    "jest": "^22.4.2",
+    "npm-run-all": "^4.1.2",
+    "rimraf": "^2.6.2",
+    "standard-version": "^4.3.0",
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "parser": "babel-eslint",
+    "env": [
+      "node",
+      "jest"
+    ],
+    "space": true
+  }
+}
