@@ -1,6 +1,6 @@
 # over-9000
 
-[![][npm-img]][npm-url] [![][travis-img]][travis-url] [![][codacy-img]][codacy-url] ![][deps-img] [![][cc-img]][cc-url] [![][xo-img]][xo-url]
+[![][npm-img]][npm-url] [![][travis-img]][travis-url] ![][cov-img] ![][deps-img] [![][cc-img]][cc-url] [![][xo-img]][xo-url]
 
 # Install
 
@@ -46,6 +46,8 @@ No one can say for sure, but if you need a bigger number, you should probably ju
 [codacy-url]: https://www.codacy.com/app/darkobits/over-9000
 
 [deps-img]: https://img.shields.io/badge/dependencies-none-brightgreen.svg?style=flat-square
+
+[cov-img]: https://img.shields.io/badge/coverage-100%25-brightgreen.svg?style=flat-square
 
 [cc-img]: https://img.shields.io/badge/conventional%20commits-1.0.0-027dc6.svg?style=flat-square
 [cc-url]: https://github.com/conventional-changelog/standard-version
