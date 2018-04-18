@@ -4,6 +4,10 @@
   "version": "9000.0.1",
   "author": "darkobits",
   "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkobits/over-9000.git"
+  },
   "main": "dist/index.js",
   "files": [
     "dist"
