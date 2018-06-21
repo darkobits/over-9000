@@ -4,8 +4,8 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/over-9000"><img src="https://img.shields.io/npm/v/over-9000.svg?style=flat-square"></a>
   <a href="https://travis-ci.org/darkobits/over-9000"><img src="https://img.shields.io/travis/darkobits/over-9000.svg?style=flat-square"></a>
-  <img src="https://img.shields.io/badge/dependencies-none-brightgreen.svg?style=flat-square">
-  <img src="https://img.shields.io/badge/coverage-100%25-brightgreen.svg?style=flat-square">
+  <a href="https://david-dm.org/darkobits/over-9000"><img src="https://img.shields.io/badge/dependencies-none-brightgreen.svg?style=flat-square"></a>
+  <a href="https://app.codacy.com/app/darkobits/over-9000"><img src="https://img.shields.io/codacy/coverage/d81a1a341fc24f6d9e8be95645fa1178.svg?style=flat-square"></a>
   <a href="https://github.com/conventional-changelog/standard-version"><img src="https://img.shields.io/badge/conventional%20commits-1.0.0-027dc6.svg?style=flat-square"></a>
   <a href="https://github.com/sindresorhus/xo"><img src="https://img.shields.io/badge/code_style-XO-e271a5.svg?style=flat-square"></a>
 </p>
