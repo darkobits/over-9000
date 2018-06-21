@@ -13,32 +13,34 @@
     "dist"
   ],
   "scripts": {
-    "lint": "xo",
+    "clean": "rimraf dist",
+    "check:styles": "tslint --project tsconfig.json --format codeFrame",
+    "check:types": "tsc --emitDeclarationOnly && rimraf **/*.spec.d.ts",
     "test": "jest",
-    "prebuild": "rimraf dist",
-    "build": "babel src --out-dir=dist --source-maps",
-    "prebump": "run-p lint test build",
-    "bump": "standard-version"
+    "prebuild": "run-p clean check:*",
+    "build": "babel src --extensions='.ts' --ignore='**/*.spec.ts,**/*.d.ts' --out-dir=dist --source-maps=inline",
+    "prebump": "run-p test build",
+    "bump": "standard-version",
+    "bump:beta": "npm run prebump && standard-version --prerelease=beta"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.2",
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/node": "^7.0.0-beta.51",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-stage-3": "^7.0.0-beta.51",
+    "@babel/preset-typescript": "^7.0.0-beta.51",
+    "@types/jest": "^23.1.1",
+    "@types/node": "^10.3.4",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^22.4.1",
-    "babel-preset-env": "^1.6.1",
-    "eslint": "^4.18.2",
-    "eslint-plugin-import": "^2.9.0",
     "jest": "^22.4.2",
     "npm-run-all": "^4.1.2",
     "rimraf": "^2.6.2",
     "standard-version": "^4.3.0",
-    "xo": "^0.20.3"
-  },
-  "xo": {
-    "parser": "babel-eslint",
-    "env": [
-      "node",
-      "jest"
-    ],
-    "space": true
+    "tslint": "^5.10.0",
+    "tslint-xo": "^0.8.0",
+    "typescript": "^2.9.1"
   }
 }

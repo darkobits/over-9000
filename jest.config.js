@@ -3,7 +3,17 @@ const ALWAYS_IGNORE = [
   '/node_modules/'
 ];
 
+const EXTENSIONS = ['ts', 'tsx', 'js', 'jsx', 'node'];
+
 module.exports = {
+  testEnvironment: 'node',
+  testPathIgnorePatterns: ALWAYS_IGNORE,
+  coveragePathIgnorePatterns: ALWAYS_IGNORE,
+  testRegex: `^.+\\.spec.(${EXTENSIONS.join('|')})$`,
+  moduleFileExtensions: EXTENSIONS,
+  transform: {
+    [`^.+\\.(${EXTENSIONS.join('|')})$`]: 'babel-jest'
+  },
   coverageThreshold: {
     global: {
       branches: 100,
@@ -11,8 +21,5 @@ module.exports = {
       lines: 100,
       statements: 100
     }
-  },
-  testEnvironment: 'node',
-  testPathIgnorePatterns: ALWAYS_IGNORE,
-  coveragePathIgnorePatterns: ALWAYS_IGNORE
+  }
 };
