@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/darkobits/over-9000.git"
   },
-  "main": "dist/index.js",
+  "main": "dist/over-9000.js",
   "files": [
     "dist"
   ],
