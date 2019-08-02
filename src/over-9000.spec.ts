@@ -5,7 +5,7 @@ describe('over-9000', () => {
   for (let i = 1; i <= NINE_THOUSAND + 1; i++) {
     jest.resetModules();
 
-    const OVER_NINE_THOUSAND = require('./over-9000').default; // tslint:disable-line no-require-imports
+    const OVER_NINE_THOUSAND = require('./over-9000'); // tslint:disable-line no-require-imports
 
     describe(`#${i}: ${OVER_NINE_THOUSAND}`, () => {
       it('shall be a number', () => {
