@@ -5,7 +5,7 @@
   <a href="https://www.npmjs.com/package/over-9000"><img src="https://img.shields.io/npm/v/over-9000.svg?style=flat-square"></a>
   <a href="https://github.com/darkobits/over-9000/actions"><img src="https://img.shields.io/endpoint?url=https://aws.frontlawn.net/ga-shields/darkobits/over-9000&style=flat-square"></a>
   <a href="https://www.codacy.com/app/darkobits/over-9000"><img src="https://img.shields.io/codacy/coverage/e3fb8e46d6a241f5a952cf3fe6a49d06.svg?style=flat-square"></a>
-  <a href="https://david-dm.org/over-9000"><img src="https://img.shields.io/david/over-9000.svg?style=flat-square"></a>
+  <a href="https://david-dm.org/darkobits/over-9000"><img src="https://img.shields.io/david/darkobits/over-9000.svg?style=flat-square"></a>
   <a href="https://conventionalcommits.org"><img src="https://img.shields.io/badge/conventional%20commits-1.0.0-FB5E85.svg?style=flat-square"></a>
 </p>
 
