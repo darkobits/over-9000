@@ -13,14 +13,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "nps build",
-    "test": "nps test",
-    "bump": "nps bump",
     "prepare": "nps prepare"
   },
   "devDependencies": {
-    "@darkobits/ts-unified": "^3.2.4",
-    "@types/jest": "^24.0.23",
-    "@types/node": "^12.12.14"
+    "@darkobits/ts": "^0.2.0"
   }
 }

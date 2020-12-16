@@ -1,3 +1,5 @@
+/* eslint-disable no-loop-func */
+
 describe('over-9000', () => {
   const NINE_THOUSAND = 9000;
   let NUM_PASSING_TESTS = 0;
@@ -5,7 +7,7 @@ describe('over-9000', () => {
   for (let i = 1; i <= NINE_THOUSAND + 1; i++) {
     jest.resetModules();
 
-    const OVER_NINE_THOUSAND = require('./over-9000'); // tslint:disable-line no-require-imports
+    const OVER_NINE_THOUSAND = require('./over-9000');
 
     describe(`#${i}: ${OVER_NINE_THOUSAND}`, () => {
       it('shall be a number', () => {
