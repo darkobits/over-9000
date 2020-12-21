@@ -1,7 +1,7 @@
 {
   "name": "over-9000",
   "description": "A sufficiently large integer for defining power levels, and the like.",
-  "version": "9000.1.1",
+  "version": "9000.1.2",
   "author": "darkobits",
   "license": "WTFPL",
   "repository": {
