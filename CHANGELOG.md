@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9000.1.4](https://github.com/darkobits/over-9000/compare/v9000.1.3...v9000.1.4) (2021-08-12)
+
+
+### 📖 Documentation
+
+* Update README. ([67bcab9](https://github.com/darkobits/over-9000/commit/67bcab990d31b0d8321cec778be1b1ec66a9456a))
+
+
+### 🏗 Chores
+
+* **deps:** Update dependencies. ([02e97d5](https://github.com/darkobits/over-9000/commit/02e97d55a98ccecfd3ada2d0709dc137eb1268a8))
+* Update ci.yml. ([ebb70bb](https://github.com/darkobits/over-9000/commit/ebb70bb405a8dfa41549cfead4ee3164264c713d))
+
 ### [9000.1.3](https://github.com/darkobits/over-9000/compare/v9000.1.2...v9000.1.3) (2020-12-21)
 
 
